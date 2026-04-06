@@ -55,3 +55,60 @@
 16-Feb-2026 13:14:23.742 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 16-Feb-2026 13:14:23.758 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 16-Feb-2026 13:14:23.764 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2026 14:55:37.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.4
+16-Feb-2026 14:55:37.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 13 2025 10:17:50 UTC
+16-Feb-2026 14:55:37.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.4.0
+16-Feb-2026 14:55:37.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2026 14:55:37.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.18.9-arch1-2
+16-Feb-2026 14:55:37.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Feb-2026 14:55:37.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-25-openjdk
+16-Feb-2026 14:55:37.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2
+16-Feb-2026 14:55:37.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Arch Linux
+16-Feb-2026 14:55:37.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/naoo/Documents/java-une/apache-tomcat-11.0.4
+16-Feb-2026 14:55:37.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/naoo/Documents/java-une/apache-tomcat-11.0.4
+16-Feb-2026 14:55:37.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/naoo/Documents/java-une/apache-tomcat-11.0.4/conf/logging.properties
+16-Feb-2026 14:55:37.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2026 14:55:37.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2026 14:55:37.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Feb-2026 14:55:37.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2026 14:55:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2026 14:55:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2026 14:55:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2026 14:55:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2026 14:55:37.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2026 14:55:37.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+16-Feb-2026 14:55:37.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/naoo/Documents/java-une/apache-tomcat-11.0.4
+16-Feb-2026 14:55:37.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/naoo/Documents/java-une/apache-tomcat-11.0.4
+16-Feb-2026 14:55:37.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/naoo/Documents/java-une/apache-tomcat-11.0.4/temp
+16-Feb-2026 14:55:37.384 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2026 14:55:37.735 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Feb-2026 14:55:37.769 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [620] milliseconds
+16-Feb-2026 14:55:37.827 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2026 14:55:37.827 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.4]
+16-Feb-2026 14:55:37.851 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/compilator.war]
+16-Feb-2026 14:55:39.206 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Feb-2026 14:55:39.275 INFO [main] org.jboss.weld.environment.servlet.EnhancedListener.onStartup WELD-ENV-001008: Initialize Weld using ServletContainerInitializer
+16-Feb-2026 14:55:39.302 INFO [main] org.jboss.weld.bootstrap.WeldStartup.<clinit> WELD-000900: 6.0.4 (Final)
+16-Feb-2026 14:55:39.489 INFO [main] org.jboss.weld.environment.deployment.discovery.ReflectionDiscoveryStrategy.processAnnotatedDiscovery WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add io.smallrye:jandex to the classpath to speed-up startup.
+16-Feb-2026 14:55:39.622 INFO [main] org.jboss.weld.bootstrap.WeldStartup.startContainer WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+16-Feb-2026 14:55:40.029 INFO [main] org.jboss.weld.environment.tomcat.TomcatContainer.initialize WELD-ENV-001100: Tomcat 7+ detected, CDI injection will be available in Servlets, Filters and Listeners.
+16-Feb-2026 14:55:40.515 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 4.1.6 for context '/compilator'
+16-Feb-2026 14:55:40.712 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-Feb-2026 14:55:41.606 INFO [main] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 15.0.12
+16-Feb-2026 14:55:41.657 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/compilator.war] has finished in [3,804] ms
+16-Feb-2026 14:55:41.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/ROOT]
+16-Feb-2026 14:55:41.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/ROOT] has finished in [28] ms
+16-Feb-2026 14:55:41.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/docs]
+16-Feb-2026 14:55:41.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/docs] has finished in [29] ms
+16-Feb-2026 14:55:41.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/examples]
+16-Feb-2026 14:55:41.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/examples] has finished in [262] ms
+16-Feb-2026 14:55:41.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/host-manager]
+16-Feb-2026 14:55:42.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/host-manager] has finished in [43] ms
+16-Feb-2026 14:55:42.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/manager]
+16-Feb-2026 14:55:42.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/naoo/Documents/java-une/apache-tomcat-11.0.4/webapps/manager] has finished in [32] ms
+16-Feb-2026 14:55:42.064 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2026 14:55:42.087 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4314] milliseconds
+16-Feb-2026 14:56:36.771 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2026 14:56:36.780 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2026 14:56:36.832 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2026 14:56:36.845 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
